@@ -12,6 +12,7 @@ require([
 Map, Geocoder, Graphic, Point, PictureMarkerSymbol, InfoTemplate, webMercatorUtils, dom
 ) {
 
+    var W3WKEY = '';
 
     // create a map
     var map = new Map("map", {
@@ -83,8 +84,8 @@ Map, Geocoder, Graphic, Point, PictureMarkerSymbol, InfoTemplate, webMercatorUti
          if (w3wBool) {
             console.log("what3words search term");
 
-            w3wParameters = {
-                'key':	'M5NSOGGY',
+            var w3wParameters = {
+                'key':	W3WKEY,
                 'string':	searchTerm
             };
 
@@ -166,7 +167,7 @@ Map, Geocoder, Graphic, Point, PictureMarkerSymbol, InfoTemplate, webMercatorUti
 
 
                 w3wParameters = {
-                    'key':	'M5NSOGGY',
+                    'key':	W3WKEY,
                     'position': latlng
                 };
 
@@ -194,7 +195,7 @@ Map, Geocoder, Graphic, Point, PictureMarkerSymbol, InfoTemplate, webMercatorUti
                         console.log("three words", threeWords);
 
                         w3wCheck = {
-                            'key':	'KEYGOESHERE',
+                            'key':	W3WKEY,
                             'string': threeWords
                         }
 
