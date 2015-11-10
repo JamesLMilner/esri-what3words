@@ -1,13 +1,13 @@
-## what3words and Esri JS Integration
+##what3words and Esri JS Integration
 
 The example demonstrates integration of ArcGIS JavaScript API with the what3words API. This is a short term solution, as what3words are aiming to produce an
 ArcGIS Locator which can be used with many different parts of the platform to geocode.
 
-# Resources
+#Resources
 
-    * [what3words](www.what3words.com)
-    * [ArcGIS JavaScript API](http://developers.arcgis.com/javascript/)
-    * [Search Widget](https://developers.arcgis.com/javascript/jsapi/search-amd.html)
+   * [what3words](www.what3words.com)
+   * [ArcGIS JavaScript API](http://developers.arcgis.com/javascript/)
+   * [Search Widget](https://developers.arcgis.com/javascript/jsapi/search-amd.html)
 
 #Issues
 
