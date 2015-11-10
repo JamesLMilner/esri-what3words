@@ -13,7 +13,7 @@ Map, Geocoder, Graphic, Point, PictureMarkerSymbol, InfoTemplate, webMercatorUti
 ) {
 
     var W3WKEY = '';
-
+    var content = '';
     // create a map
     var map = new Map("map", {
         basemap: "topo",
